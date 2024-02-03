@@ -1,0 +1,14 @@
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.GeneratedMSBuildEditorConfig.editorconfig
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.AssemblyInfoInputs.cache
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.AssemblyInfo.cs
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.csproj.CoreCompileInputs.cache
+E:\c# projects\ListPractice\bin\Debug\net8.0\ListPractice.exe
+E:\c# projects\ListPractice\bin\Debug\net8.0\ListPractice.deps.json
+E:\c# projects\ListPractice\bin\Debug\net8.0\ListPractice.runtimeconfig.json
+E:\c# projects\ListPractice\bin\Debug\net8.0\ListPractice.dll
+E:\c# projects\ListPractice\bin\Debug\net8.0\ListPractice.pdb
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.dll
+E:\c# projects\ListPractice\obj\Debug\net8.0\refint\ListPractice.dll
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.pdb
+E:\c# projects\ListPractice\obj\Debug\net8.0\ListPractice.genruntimeconfig.cache
+E:\c# projects\ListPractice\obj\Debug\net8.0\ref\ListPractice.dll
