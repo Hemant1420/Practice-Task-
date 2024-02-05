@@ -1,0 +1,14 @@
+E:\c# projects\dictionarypractice\bin\Debug\net8.0\dictionarypractice.exe
+E:\c# projects\dictionarypractice\bin\Debug\net8.0\dictionarypractice.deps.json
+E:\c# projects\dictionarypractice\bin\Debug\net8.0\dictionarypractice.runtimeconfig.json
+E:\c# projects\dictionarypractice\bin\Debug\net8.0\dictionarypractice.dll
+E:\c# projects\dictionarypractice\bin\Debug\net8.0\dictionarypractice.pdb
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.GeneratedMSBuildEditorConfig.editorconfig
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.AssemblyInfoInputs.cache
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.AssemblyInfo.cs
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.csproj.CoreCompileInputs.cache
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.dll
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\refint\dictionarypractice.dll
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.pdb
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\dictionarypractice.genruntimeconfig.cache
+E:\c# projects\dictionarypractice\obj\Debug\net8.0\ref\dictionarypractice.dll
