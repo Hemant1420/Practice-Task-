@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Arraypractice
 {
-   public class Class1
-    { 
+    public class Class1
+    {
         public void sum(int[] arr, int a)  //Determine if any two integer in array sum to given integer
         {
             int num = a;
@@ -39,14 +40,14 @@ namespace Arraypractice
 
         public void listsort(int[] arr)  //Sort Array in Descending order
         {
-            
-           Array.Sort(arr);
-           Array.Reverse(arr);
-            foreach(int i in arr)
+
+            Array.Sort(arr);
+            Array.Reverse(arr);
+            foreach (int i in arr)
             {
                 Console.Write(i + ", ");
             }
-            
+
         }
     }
 
@@ -59,7 +60,7 @@ namespace Arraypractice
 
             Dictionary<int, int> newDict = new Dictionary<int, int>();
 
-            for(int i=0; i< arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 if (newDict.ContainsKey(arr[i]))
                 {
@@ -68,7 +69,7 @@ namespace Arraypractice
                 else
                 {
                     newDict.Add(arr[i], 1);
-                    
+
                 }
 
             }
@@ -77,8 +78,8 @@ namespace Arraypractice
 
             foreach (var pair in newDict)
             {
-               
-                if( pair.Value == max)
+
+                if (pair.Value == max)
                 {
                     Console.WriteLine(pair.Key + ", ");
                 }
@@ -110,53 +111,53 @@ namespace Arraypractice
         }
     }
 
-     public class class5
-     {
-         public void sum()
-         {
-             int[] arr = Array.Empty<int>();
+    public class class5
+    {
+        public void sum()
+        {
+            int[] arr = Array.Empty<int>();
 
-             int i;
-             for (i = 0; i < 101; i++)
-             {
-                 if (i == 4 || i == 8)
-                 {
-                     continue;
-                 }
-                 else
-                 {
-                     arr = arr.Append(i).ToArray();
-                     Console.WriteLine(i);
-                 }
-
-
-
-
-
-             }
+            int i;
+            for (i = 0; i < 101; i++)
+            {
+                if (i == 4 || i == 8)
+                {
+                    continue;
+                }
+                else
+                {
+                    arr = arr.Append(i).ToArray();
+                    Console.WriteLine(i);
+                }
 
 
 
 
 
+            }
 
 
-             for(int k=0; k<=arr.Length; k++)
-             {
-                 if (arr[k]+1 == arr[k + 1])
-                 {
-                     continue;
 
-                 }
-                 else
-                 {
-                     Console.WriteLine(arr[k]+1);
-                 }
-             }
 
-         }
 
-     }  
+
+
+            for (int k = 0; k <= arr.Length; k++)
+            {
+                if (arr[k] + 1 == arr[k + 1])
+                {
+                    continue;
+
+                }
+                else
+                {
+                    Console.WriteLine(arr[k] + 1);
+                }
+            }
+
+        }
+
+    }
 
 
     public class class6
@@ -260,12 +261,12 @@ namespace Arraypractice
             int[] empty = Array.Empty<int>(); // Create an empty array using Array.Empty<T>()
             int[] duplicate = Array.Empty<int>(); // Create an empty array using Array.Empty<T>()
 
-            
+
             for (int i = 0; i < arr.Length; i++)
             {
 
                 int array = Array.IndexOf(empty, arr[i]);  //checking if the element exist in empty array
-                int array2 = Array.IndexOf(duplicate, arr[i]);   //checking if the repeated element is alreday present in duplicate array so that we don't print the repeated element two times
+                int array2 = Array.IndexOf(duplicate, arr[i]);   //checking if the repeated element is already present in duplicate array so that we don't print the repeated element two times
 
                 if (array == -1)
                 {
@@ -288,6 +289,61 @@ namespace Arraypractice
 
 
         }
+    }
+
+    public class class10
+    {
+        public void Duplicate(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        Console.WriteLine($"Duplicate Values are : {arr[i]}");
+
+
+                    }
+                    break;
+                }
+            }
+        }
+    }
+
+
+   
+    public class class12() 
+    {
+
+        public void Sumcount(int[] sum, int n) 
+        {
+            int count = 0;
+            int num;
+            
+            for(int i =0;i< sum.Length; i++)
+            {
+
+                for(int  j = i+1 ; j < sum.Length; j++)
+                {
+                   
+                    num = sum[i] + sum[j];
+
+                    if(num == n)
+                    {
+                        count++;
+                        
+                    }
+
+                }
+            }
+            Console.WriteLine(count);
+
+
+
+            }
+
+
     }
 }
 

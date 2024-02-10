@@ -12,7 +12,7 @@ namespace ListPractice
     public class Class1
     {
 
-        public void List( List<int> list)                   //Adding the elements of list
+        public void List(List<int> list)                   //Adding the elements of list
         {
             int sum = 0;
             foreach (var element in list)
@@ -37,7 +37,7 @@ namespace ListPractice
                     uniqueList.Add(element);
                 }
             }
-            foreach(var element in uniqueList)
+            foreach (var element in uniqueList)
             {
                 Console.WriteLine(element);
             }
@@ -74,7 +74,7 @@ namespace ListPractice
                 list[j] = temp;
             }
 
-            foreach(int i in list)
+            foreach (int i in list)
             {
                 Console.WriteLine(i);
             }
@@ -96,7 +96,7 @@ namespace ListPractice
                 mergedList.Insert(index, element);
             }
 
-            foreach(var element in mergedList)
+            foreach (var element in mergedList)
             {
                 Console.WriteLine(element);
             }
@@ -108,7 +108,7 @@ namespace ListPractice
     {
         public void List(List<int> list)    //List Rotation
         {
-            int positionsToRotate = 3; 
+            int positionsToRotate = 3;
             for (int i = 0; i < positionsToRotate; i++)
             {
                 int lastElement = list[list.Count - 1];
@@ -119,7 +119,7 @@ namespace ListPractice
                 list[0] = lastElement;
             }
 
-            foreach( var element in list)
+            foreach (var element in list)
             {
                 Console.WriteLine(element);
             }
@@ -146,7 +146,97 @@ namespace ListPractice
 
         }
     }
+
+    public class Class8
+    {
+        public void Zeros(List<int> L1)
+        {
+            List<int> newList = new List<int>(L1.Count);
+            int k = 0;
+
+            
+            for (int i = 0; i < L1.Count; i++)
+            {
+                if (L1[i] != 0)
+                {
+                    newList.Add(L1[i]);
+                    k++;
+                }
+            }
+
+           
+            for (int i = k; i < L1.Count; i++)
+            {
+                newList.Add(0);
+            }
+
+            
+            for (int z = 0; z < newList.Count; z++)
+            {
+                Console.WriteLine(newList[z]);
+            }
+        }
+    }
+
+
+    public class Class9()                       //Yet to be done correctly
+    {
+        public void Rotate(List<int> L1)
+        {
+            List<int> newList = new List<int>();
+            int k = 0;
+
+            int Position = 3;
+
+            for (int i = L1.Count - 1; i > L1.Count - 3; i--)
+            {
+                newList[k] = L1[i];
+                k++;
+
+            }
+
+
+            for (int j = 0; j < L1.Count - 3; j++)
+            {
+                newList[k] = L1[j];
+
+            }
+
+
+            for (int z = 0; z < newList.Count; z++)
+            {
+                Console.WriteLine(newList[z]);
+            }
+        }
+
+
+
+    }
+
+    public class class10()
+    {
+       
+            
+            public string ReverseWords(string input)
+            {
+                
+                string[] words = input.Split(' ');
+
+               
+                Array.Reverse(words);
+
+                
+                string reversedString = string.Join(' ', words);
+
+                return reversedString;
+            }
+        
+
+
+
+    }
 }
+
 
 
     
